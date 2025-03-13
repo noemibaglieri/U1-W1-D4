@@ -1,0 +1,56 @@
+body {
+  background-image: url(../assets/img/sfondo.png);
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  background: linear-gradient(0deg, rgba(0, 102, 136, 1) 0%, rgba(0, 153, 187, 1) 100%);
+  margin: 20px auto;
+  padding: 30px 0;
+  max-width: 410px;
+  -webkit-box-shadow: -8px 10px 11px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -8px 10px 11px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: -8px 10px 11px -10px rgba(0, 0, 0, 0.75);
+}
+
+header img {
+  min-width: 20rem;
+  display: block;
+  margin: auto;
+}
+
+header p,
+nav,
+nav li a {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+header p,
+header nav {
+  margin-top: 1.3rem;
+}
+
+header nav ul li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+header li:before {
+  content: "⇒";
+}
+
+header li:after {
+  content: "⇐";
+}
+
+hr {
+  display: none;
+}
+
+.second-section {
+  background-color: #fff;
+}
