@@ -147,7 +147,8 @@ tr:last-child {
   border-bottom: 2px solid #3366cc;
 }
 
-article p > a {
+article a,
+aside a {
   color: #0099bb;
   font-weight: 600;
 }
@@ -156,4 +157,73 @@ video {
   width: 100%;
   margin: 20px auto;
   border-radius: 30px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.card-news {
+  background-color: #ddddde;
+
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+button {
+  color: #fff;
+  background-color: #3366cc;
+  padding: 4px;
+  border: none;
+  font-size: 19px;
+}
+input[type="email"] {
+  border: none;
+  border-bottom: 1px dashed #000;
+  font-size: 19px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.article-card {
+  background-color: #ddddde;
+  border: 1px solid #b8b8b8;
+  margin: 20px auto;
+  max-width: 325px;
+  min-height: 100px;
+  padding: 20px;
+}
+
+.article-card:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.article-card-date {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+footer {
+  background: linear-gradient(0deg, rgba(0, 85, 102, 1) 0%, rgba(42, 51, 56, 1) 100%);
+  margin: 20px auto;
+  padding: 30px 0;
+  max-width: 410px;
+  -webkit-box-shadow: -8px 10px 11px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -8px 10px 11px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: -8px 10px 11px -10px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+footer a {
+  color: #ff00fe;
+  font-weight: 900;
+}
+
+footer p {
+  margin-bottom: 20px;
 }
