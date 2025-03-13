@@ -80,6 +80,7 @@ article {
 
 .fas {
   margin-right: 0.3rem;
+  font-size: 1.1rem;
 }
 article {
   line-height: 2rem;
@@ -103,4 +104,56 @@ code {
 
 article li {
   margin-bottom: 12px;
+}
+
+article ul li span {
+  margin-left: -15px;
+}
+
+article ol li {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+table {
+  text-align: center;
+}
+table caption {
+  font-style: italic;
+  font-weight: 600;
+}
+
+table thead {
+  background-color: #3366cc;
+  color: #fff;
+}
+
+th {
+  min-width: 100px;
+}
+
+th,
+td {
+  height: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+  border-top: 1px solid #b8b8b8;
+  border-bottom: 1px solid #b8b8b8;
+}
+
+tr:last-child {
+  border-bottom: 2px solid #3366cc;
+}
+
+article p > a {
+  color: #0099bb;
+  font-weight: 600;
+}
+
+video {
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 30px;
 }
